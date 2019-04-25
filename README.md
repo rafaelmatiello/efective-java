@@ -14,12 +14,14 @@ Exemplos dicas sobre o livro Effect Java 3
 ### Exemplo:
 
 Problema:
-
+```java
 calcular(String id, String numemp, String tipCol, String numCad, LocalDate dataInicial, LocalDate dataFinal,Boolean enviarEmail, Boolean gerarPendencia);
+```
 
 Solução:
-
+```java
 CalcularParametros parametros = new CalcularParametros(LogId)
 parametros.numEmp(1).tipCol(2).numCad(3).build();
 
 calcular(calcularParametros);
+```
