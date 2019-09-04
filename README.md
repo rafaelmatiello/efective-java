@@ -58,3 +58,10 @@ parametros.dataInicial('').enviarEmail(false).build();
 
 calcular(calcularParametros);
 ```
+
+## Singletons
+
+ - Singletons são dificeis de testar.
+ 
+ stop page 47.
+ https://github.com/echoJava/book/blob/master/Java/Effective%20Java%2C%20Third%20Edition.pdf
